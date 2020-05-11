@@ -12,7 +12,7 @@ Rewrite和Scripting依然有效
 
 
 var wifiname = $network.wifi.ssid;
-var proxywifi = "lao duan_6G";
+var proxywifi = "lovelifeasus_5G";
 if (wifiname == proxywifi){
     $surge.setOutboundMode("direct");
     $notification.post("SSID已启动","Surge已自动变为直连模式","");
